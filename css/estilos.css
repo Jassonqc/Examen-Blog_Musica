@@ -1,79 +1,76 @@
-body{
- background-color: darkred;
+body {
+    background-color: darkred;
 }
-
-.redes a:hover{
+.redes a:hover {
     text-decoration: none;
     color: darkslategrey;
-    
 }
-
-.icon-youtube-squared{
+.icon-youtube-squared {
     color: red;
 }
-.icon-facebook-squared{
+.icon-facebook-squared {
     color: darkblue;
 }
-.icon-instagram{
+.icon-instagram {
     color: saddlebrown;
 }
-.icon-pinterest-squared{
+.icon-pinterest-squared {
     color: darkred;
 }
-.icon-twitter-squared{
+.icon-twitter-squared {
     color: aqua;
 }
-[class^="icon-"]:before, [class*=" icon-"]:before {
-    
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
     width: .85rem;
-    margin-top: 4rem; 
+    margin-top: 4rem;
 }
-.cabezera{
+.cabezera {
     background-color: #fff;
     padding-bottom: 1.5rem;
 }
-.navegador{
+.navegador {
     margin-bottom: 1rem;
     background-color: orange;
     color: dark;
 }
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     color: black;
     background-color: yellow;
 }
 .navegador a {
     color: black;
 }
-.historia{
+.historia {
     background-color: aliceblue;
 }
-.the-beatles{
+.the-beatles {
     margin-top: 1rem;
 }
-.buscar{
+.buscar {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.navegador-derecho a{
+.navegador-derecho a {
     padding: .4rem;
     text-decoration: none;
     color: black;
     border: solid 1px black;
 }
-.navegador-derecho a:hover{
+.navegador-derecho a:hover {
     text-decoration: none;
     color: darkslategrey;
     border-radius: 3px black;
 }
-[class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
     margin-top: 0rem;
-    
 }
-.usuario{
-    padding: .5rem;
-    font-size: 25px;
+
+.texto-area {
+    margin-bottom: 1rem;
 }
-.texto-area{
-     margin-bottom: 1rem;   
+.comentario{
+    margin-top: .5rem;
 }
